@@ -7,7 +7,7 @@ on:
       - master
       
   schedule:
-  - cron: */3 * * * *" # See https://crontab.guru/every-3-hours
+  - cron: "*/3 * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
 
 jobs:
   auto_commit:
